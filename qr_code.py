@@ -9,4 +9,4 @@ qr=qrcode.QRCode(version=1,
 qr.add_data("https://www.candidroot.com/jobs/apply/freshers-interns-for-python-odoo-development-6")
 qr.make(fit=True)
 img=qr.make_image(fill_color="red",back_color="blue")
-img.save("parth2.png")
+img.save("parth.png")
