@@ -31,5 +31,7 @@ if __name__ == '__main__':
             print('Speed: ', p1, "word/second")
             p2 = mistake(t1,tinput)
             print("Error :" , p2)
+            
         else:
+            
             print("byy")
