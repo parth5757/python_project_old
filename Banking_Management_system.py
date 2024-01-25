@@ -58,5 +58,3 @@ print(withdrawal_result)
 print(atm.view_balance())
 
 
-
-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
