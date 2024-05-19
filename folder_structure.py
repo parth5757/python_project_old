@@ -9,6 +9,7 @@ def list_folders(path, indent=0, output_file=None, ignore_folders=None):
         return
 
     for item in items:
+        
         item_path = os.path.join(path, item)
         if os.path.isdir(item_path):
             if item in ignore_folders:
