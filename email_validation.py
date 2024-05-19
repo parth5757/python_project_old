@@ -1,4 +1,5 @@
 email = input("enter your email: ")
+
 k, j, d=0,0,0
 if len(email)>=6:
     if email[0].isalpha():
@@ -28,3 +29,15 @@ if len(email)>=6:
         print("wrong email 2")
 else:
     print("wrong email 1")
+
+
+
+# using regex
+
+import re
+
+def validate_email(email):
+    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$'
+    return re.match(pattern, email) is not None
+email = me@test.in
+print(validate_email(email))
